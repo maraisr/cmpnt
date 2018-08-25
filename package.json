@@ -1,0 +1,18 @@
+{
+  "name": "@marais/cmpnt",
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "start": "parcel src/index.html",
+    "lint": "prettier --write '{*, src/**/*}.+(js|ts|tsx|json)'"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-custom-element-classes": "^0.1.0",
+    "parcel-bundler": "^1.9.7",
+    "prettier": "^1.14.2",
+    "typescript": "^3.0.1"
+  }
+}

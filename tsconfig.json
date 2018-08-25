@@ -1,0 +1,15 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"module": "es2015",
+		"target": "esnext",
+		"allowSyntheticDefaultImports": true,
+		"alwaysStrict": true,
+		"emitDecoratorMetadata": true,
+		"lib": ["dom", "esnext"],
+		"moduleResolution": "node",
+		"experimentalDecorators": true,
+		"jsx": "react",
+		"jsxFactory": "h"
+	}
+}
